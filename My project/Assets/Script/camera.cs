@@ -27,5 +27,14 @@ public class camera : MonoBehaviour
         fareY += Input.GetAxis("Mouse Y")*Sensivity;
         this.transform.eulerAngles=new Vector3(fareY,fareX,0);
         hedef.transform.eulerAngles =new Vector3(0,fareX,0);
+
+        if (fareY >= 40)
+        {
+            fareY = 40;
+        }
+        if (fareY <= 0)
+        {
+            fareY = 0;
+        }
     }  
 }

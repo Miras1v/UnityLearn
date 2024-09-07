@@ -66,6 +66,15 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     Unity.VisualEffectGraph.Runtime.dll:
     - UnityEngine.VFX.VFXRuntimeResources
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationBlendTree.Node
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -321,7 +330,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14844}
     - Class: 114
-      Script: {instanceID: 15812}
+      Script: {instanceID: 15814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -363,9 +372,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -378,10 +393,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14240}
     - Class: 114
-      Script: {instanceID: 15620}
+      Script: {instanceID: 15622}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -2320,7 +2337,7 @@ ScriptsOnlyBuild:
     className: TMP_UiFrameRateCounter
   - hash:
       serializedVersion: 2
-      Hash: 47d736d4336aa9b27bec1fbcbb1c9df4
+      Hash: 1b8752168d97ec9f77ca29583199c911
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: InputHandler
@@ -3034,6 +3051,12 @@ ScriptsOnlyBuild:
     className: SpawnOverDistance
   - hash:
       serializedVersion: 2
+      Hash: 522ecaef16675a4f7107b1170a6362a9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimatorController
+  - hash:
+      serializedVersion: 2
       Hash: 67272c9c30c50b68ef1ce72ac0191c57
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -3180,4 +3203,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Escmenu.unity
   - Assets/Scenes/Level 1.unity
-  playerPath: "C:/Users/mirac/Desktop/Yeni klas\xF6r/Spike.exe"
+  playerPath: C:/Users/mirac/Desktop/Unity/s/Spike.exe
